@@ -1,0 +1,137 @@
+.container {
+    margin-top: 10%;
+    color:rgb(161, 62, 4) ; font-size:20px; 
+    font-weight: bolder;
+   
+    max-width: 100%;
+    max-height: 90%;
+    background-color:white;
+    /* background-color:rgb(247,218,165); */
+   
+    border: 1px, solid, groove;
+    
+}
+
+.jumbotron {
+    background-color: transparent;
+    /* background-color:rgb(247,218,165); */
+    opacity: 0.8;
+   
+   width: 100%;
+   height: 6%;
+   margin-top: 4%;
+   justify-content: center;
+   text-shadow:3px 3px 2px black;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* color:rgb(201, 80, 10) */
+    color: white;
+}
+
+body {
+    /* background-image: url("../images/kite_bg.png"); */
+   background-repeat:no-repeat;
+   background-size: 100%;
+   height: 100%;
+
+    /* background-image: url("../images/school_bg.png"); */
+    /* background-image: url("../images/famil2_bg.png"); */
+    /* background-image: url("../images/famil2_bg_crop.png"); */
+    background-image: url("../images/kite_bg_crop.png");
+    /* background-image: url("../images/kite_bg.jpeg"); */
+}
+
+
+.btn {
+    font-size:20px;
+    font-weight: bolder;
+    float: center;
+    background-color: rgb(201, 80, 10);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(250, 174, 98);
+}
+
+
+
+.page-header {
+    padding-top: 1%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+} 
+
+.display-4 {
+    /* color: rgb(201, 80, 10); */
+    color: white;
+    font-size: 4.0rem;
+    font-weight: 400;
+    line-height: 0;}
+
+
+thead {color:rgb(201, 80, 10); font-size:18px; font-weight: bold;}
+
+.table-active {background-color: rgb(86, 34, 134)}
+
+#tbPadding {padding-top: 3%;}
+
+
+
+
+
+/*============================Style for TABS============================= */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border:none;
+  
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: black;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color:rgb(201, 80, 10);
+    color: white
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    float: right;
+    clear: both;
+
+}
+
+/*Style for error message*/
+#errormessage{background-color: yellow; width: 80%; color: red; font-size: 18px; margin-top: 0.1%;}
+
+#map{
+    height: 400px;
+    width: 60%;
+}
